@@ -1,30 +1,37 @@
 {
-    "name": "",
+    "name": "employee-tracker",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
+        "migrate": "mysql db/employees.db < db/schema.sql",
+        "seed": "mysql db/employees.db < db/seeds.sql",
+        "db": "mysql db/employees.db",
+        "watch": "nodemon server.js",
         "start": "node server.js"
     },
     "repository": {
-        "type": "",
-        "url": ""
+        "type": "git",
+        "url": "git+https://github.com/jpd61/employee-tracker.git"
     },
-    "author": "",
-    "license": "MIT",
+    "author": "Joseph DeWoody",
+    "license": "ISC",
     "bugs": {
-        "url": ""
+        "url": "https://github.com/jpd61/employee-tracker/issues"
     },
-    "homepage": "",
+    "homepage": "https://github.com/jpd61/employee-tracker#readme",
     "dependencies": {
-        "asciiart-logo": "^0.2.6",
+        "chalk": "^4.1.2",
+        "console-table": "^0.1.2",
         "console.table": "^0.10.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "figlet": "^1.5.2",
         "inquirer": "^7.3.3",
-        "my-sql": "^1.2.15",
-        "mysql": "^2.18.1",
         "mysql2": "^2.3.3",
-        "sequelize": "^6.21.3",
-        "sqlite3": "^5.0.9"
+        "node": "^18.5.0",
+        "nodemon": "^2.0.19",
+        "validator": "^13.7.0"
     }
 }
