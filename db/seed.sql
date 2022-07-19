@@ -4,26 +4,26 @@ INSERT INTO department(name)
 VALUES ("Engineering"), ("Sales"), ("Finance"), ("Marketing"), ("Human Resource Management"), ("Legal");
 
 INSERT INTO role(title, salary, department_id)
-VALUES ("Software Engineer", 80000, 1), 
-	("Web Developer", 65000, 1), 
-	("Technical Lead",75000,1),
-	("Sales Person",50000, 2),
-	("Sales Lead", 60000,2),
-	("Account Executive", 55000, 3),
-	("Accountant", 50000, 3),
-	("Marketing Manager",75000, 4),
-	("HR Manager", 75000, 5),
-	("Lawyer", 65000, 6),
-	("Legal Team Lead", 70000, 6)
+VALUES ("Influencer", 80000, 1), 
+	("Software Engineer", 65000, 1), 
+	("Doctor",75000,1),
+	("Artist",50000, 2),
+	("Manager", 60000,2),
+	("Bank Teller", 55000, 3),
+	("Cook", 50000, 3),
+	("Account Manager",75000, 4),
+	("Intern", 75000, 5),
+	("Graphic Designer", 65000, 6),
+	("Content Creator", 70000, 6)
     ;
     
 INSERT INTO employee(first_name, last_name, role_id, manager_id)
-VALUES ("Harry", "Potter", 3, NULL),
-	("Kelly", "Johnson", 1, 1),
-	("Ron", "Wisley", 2, 1),
-	("John", "Doe", 5, NULL),
-	("Robert", "Cruz", 4, 4),
-	("Hanna","Granger",7, NULL),
-	("Joe","Smith", 11, NULL),
-	("Max", "Rayman",10, 7)
+VALUES ("Blair", "Waldorf", 3, NULL),
+	("Wednesday", "Addams", 1, 1),
+	("John", "Smith", 2, 1),
+	("Randy", "Savage", 5, NULL),
+	("Sen", "Tenz", 4, 4),
+	("George","Bush",7, NULL),
+	("Chistina","Ricci", 11, NULL),
+	("Sailor", "Moon",10, 7)
     ;
