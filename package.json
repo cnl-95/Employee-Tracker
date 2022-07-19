@@ -1,0 +1,27 @@
+{
+    "name": "",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "",
+        "url": ""
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "dependencies": {
+        "asciiart-logo": "^0.2.6",
+        "console.table": "^0.10.0",
+        "inquirer": "^7.3.3",
+        "my-sql": "^1.2.15",
+        "mysql": "^2.18.1"
+    }
+}
