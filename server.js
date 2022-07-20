@@ -422,7 +422,7 @@ function init() {
 	//logo
 	console.log(
 		logo({
-			name: 'Employee Management System',
+			name: 'Employee Tracker',
 			font: 'Standard',
 			lineChars: 10,
 			padding: 3,
