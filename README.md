@@ -14,7 +14,7 @@
   - [Questions](#questions)
   
   ## Description 
-This is a simple application you can use to make save save notes!
+This is a simple application you can use to track your employees through a database.
   ## Installation
 npm i
 node server.js
